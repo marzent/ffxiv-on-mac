@@ -8,7 +8,7 @@ sudo chown root:wheel $bpfdpath
 launchctl load $bpfdpath
 
 echo 'Creating alias "fix-bpf" in case permissions break'
-echo "alias fix-bpf='launchctl unload $CHMODBPF; launchctl load $CHMODBPF'" >> ~/.zshrc
+echo "alias fix-bpf='launchctl unload $bpfdpath; launchctl load $bpfdpath'" >> ~/.zshrc
 
 echo 'Patching Crossover'
 cxwinedir='/Applications/CrossOver.app/Contents/SharedSupport/CrossOver/lib64/wine'
