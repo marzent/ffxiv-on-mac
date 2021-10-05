@@ -1,20 +1,23 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 echo 'Setting up launchd to give users in group "admin" access to libpcap'
-CHMODBPF = '/Library/LaunchDaemons/org.dezent.chmodbpf.plist'
-sudo cp launchd/org.dezent.chmodbpf.plist $CHMODBPF
-sudo chmod 644 $CHMODBPF
-sudo chown root:wheel $CHMODBPF
-launchctl load $CHMODBPF
+bpfdpath='/Library/LaunchDaemons/org.dezent.chmodbpf.plist'
+sudo cp launchd/org.dezent.chmodbpf.plist $bpfdpath
+sudo chmod 644 $bpfdpath
+sudo chown root:wheel $bpfdpath
+launchctl load $bpfdpath
 
 echo 'Creating alias "fix-bpf" in case permissions break'
-echo 'alias fix-bpf="launchctl unload $CHMODBPF; launchctl load $CHMODBPF"' >> ~/.zshrc
+echo "alias fix-bpf='launchctl unload $CHMODBPF; launchctl load $CHMODBPF'" >> ~/.zshrc
 
 echo 'Patching Crossover'
-CX_WINE_DIR = '/Applications/CrossOver.app/Contents/SharedSupport/CrossOver/lib64/wine'
-cp -b wine-dlls/iphlpapi.dll.so CX_WINE_DIR/iphlpapi.dll.so
-cp -b wine-dlls/ntdll.dll CX_WINE_DIR/ntdll.dll
-cp -b wine-dlls/wpcap.dll.so CX_WINE_DIR/wpcap.dll.so
-cp -b wine-dlls/wpcap.so CX_WINE_DIR/wpcap.so
+cxwinedir='/Applications/CrossOver.app/Contents/SharedSupport/CrossOver/lib64/wine'
+cp -n "$cxwinedir/iphlpapi.dll.so" "$cxwinedir/iphlpapi.dll.so.bak"
+cp -n "$cxwinedir/ntdll.dll" "$cxwinedir/ntdll.dll.bak"
+cp -n "$cxwinedir/wpcap.dll.so" "$cxwinedir/wpcap.dll.so.bak"
+cp wine-dlls/iphlpapi.dll.so "$cxwinedir/iphlpapi.dll.so"
+cp wine-dlls/ntdll.dll "$cxwinedir/ntdll.dll"
+cp wine-dlls/wpcap.dll.so "$cxwinedir/wpcap.dll.so"
+cp wine-dlls/wpcap.so "$cxwinedir/wpcap.so"
 
 echo 'You can now follow the rest of the install guide!'
