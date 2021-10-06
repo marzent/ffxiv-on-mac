@@ -2,13 +2,13 @@
 
 echo 'Setting up launchd to give users in group "admin" access to libpcap'
 bpfdpath='/Library/LaunchDaemons/org.dezent.chmodbpf.plist'
+sudo cp launchd/fixbpf/fixbpf/fixbpf /usr/local/bin/
+sudo chmod 744 /usr/local/bin/fixbpf
+sudo chown root:wheel /usr/local/bin/fixbpf
 sudo cp launchd/org.dezent.chmodbpf.plist $bpfdpath
 sudo chmod 644 $bpfdpath
 sudo chown root:wheel $bpfdpath
 launchctl load $bpfdpath
-
-echo 'Creating alias "fix-bpf" in case permissions break'
-echo "alias fix-bpf='launchctl unload $bpfdpath; launchctl load $bpfdpath'" >> ~/.zshrc
 
 echo 'Patching Crossover'
 cxwinedir='/Applications/CrossOver.app/Contents/SharedSupport/CrossOver/lib64/wine'
