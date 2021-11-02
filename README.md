@@ -12,11 +12,7 @@ ffxiv-on-mac is a set of files and scripts for running [Final Fantasy XIV](http:
 
 ## Installing
 
-1. Make sure to install [ChmodBPF](https://github.com/marzent/ffxiv-on-mac/raw/main/ChmodBPF/Install%20ChmodBPF.pkg) if you want to use ACTs network parsing (you can skip this step if you have Wireshark already installed)
-1. [Download](https://github.com/marzent/ffxiv-on-mac/archive/refs/heads/main.zip) or clone this repo and run `install.sh`
-1. Install ffxiv via [CrossTie](https://github.com/marzent/ffxiv-on-mac/raw/main/Final%20Fantasy%20XIV%20Online.tie) or if you want to do it manually follow the instructions [here](https://www.reddit.com/r/macgaming/comments/pr48pk/ff14_mac_client_vs_crossover_21s_huge_increaase/)
-1. (optional) install GShade via the [Linux script](https://github.com/HereInPlainSight/gshade_installer/archive/refs/heads/master.zip)
-1. (optional) install [ACT](https://advancedcombattracker.com/download.php) and enable WinPCap parsing
+[Seathasky](https://github.com/seathasky) has done a wonderfull write-up on how to install it's probably best to just follow it [here](https://github.com/seathasky/FF14-MAC_ModSupport)
 
 ## What works
 
@@ -24,10 +20,10 @@ ffxiv-on-mac is a set of files and scripts for running [Final Fantasy XIV](http:
 * gshade
 * xivlauncher with plugin injection
 * FFLogs Uploader
+* having a Mac only license and using xivlauncher, though your install might break on xivlauncher updates until this [pull request](https://github.com/goatcorp/FFXIVQuickLauncher/pull/572) gets merged (just rerun [XIVLauncherWine.exe](https://github.com/marzent/ffxiv-on-mac/raw/main/XIVLauncherWine.exe) inside your bottle to fix)
 
 ## What doesn't work
 
-* if you have a Mac only license and want to use xivlauncher, you need to do some custom patching (just dm me)
 * a minority of gshade shaders *will* tank your performance
 * a few xivlauncher plugins have issues running (compatibility is identical to running under Linux though)
 * the cef version OverlayPlugin comes bundeled with (use [Bunny HUD](https://github.com/marzent/Bunny-HUD) or NextUI to fix)
