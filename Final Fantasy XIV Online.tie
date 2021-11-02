@@ -372,7 +372,7 @@ This version is meant to be used for Macs only!</comment>
         </postinstallregistry>
       </installprofile>
     </app>
-    <app appid="com.codeweavers.c4.7892" timestamp="2021-10-30T10:37:07-05:00">
+    <app appid="com.codeweavers.c4.7892" timestamp="2021-11-02T08:35:44-05:00">
       <cxversion product="cxoffice">21</cxversion>
       <name>Final Fantasy XIV Online</name>
       <name lang="en">Final Fantasy XIV Online</name>
@@ -433,9 +433,7 @@ This version is meant to be used for Macs only!</comment>
 &lt;/p&gt;</description>
         <comment>Will fully install XIVLauncher, a faster community launcher for Final Fantasy XIV, with various available addons and enhancements to the game.
 
-Additional steps inside macOS will need to be taken if network parsing with Advanced Combat Tracker is desired.
-
-This version is meant to be used for Macs only!</comment>
+Additional steps inside macOS will need to be taken if network parsing with Advanced Combat Tracker or plugin injection is desired.</comment>
         <medal rating="1" platform="Linux" version="9.2.0" num="1" last="2010-11-04T19:18:14-05:00">knownnottowork</medal>
         <medal rating="1" platform="Mac" version="10.0.1" num="1" last="2011-03-03T03:29:26-06:00">knownnottowork</medal>
         <medal rating="1" platform="Linux" version="10.2.0" num="1" last="2012-03-07T11:19:58-06:00">knownnottowork</medal>
@@ -471,8 +469,8 @@ This version is meant to be used for Macs only!</comment>
         <installedkeypattern>XIVLauncher</installedkeypattern>
         <installeddisplaypattern>XIVLauncher</installeddisplaypattern>
         <bottletemplate>win10_64</bottletemplate>
-        <downloadurl>https://github.com/marzent/ffxiv-on-mac/raw/main/XIVLauncherMac.exe</downloadurl>
-        <downloadglob>XIVLauncherMac.exe</downloadglob>
+        <downloadurl>https://github.com/marzent/ffxiv-on-mac/raw/main/XIVLauncherWine.exe</downloadurl>
+        <downloadglob>XIVLauncherWine.exe</downloadglob>
       </appprofile>
       <installprofile>
         <predependency>com.codeweavers.c4.16542</predependency>
@@ -487,7 +485,7 @@ This version is meant to be used for Macs only!</comment>
           </value>
         </preinstallregistry>
         <lnkfile>
-          <shortcut>%StartMenu%/XIVLauncher.lnk</shortcut>
+          <shortcut>%StartMenu%/XIVLauncher</shortcut>
           <target>C:\users\crossover\Local Settings\XIVLauncher\XIVLauncher.exe</target>
           <workdir>C:\users\crossover\Local Settings\XIVLauncher\</workdir>
         </lnkfile>
@@ -495,28 +493,7 @@ This version is meant to be used for Macs only!</comment>
           <key>HKEY_CURRENT_USER\Software\Wine</key>
           <value>
             <name>HideWineExports</name>
-            <data>1</data>
-          </value>
-        </postinstallregistry>
-        <postinstallregistry>
-          <key>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment</key>
-          <value>
-            <name>HARMONY_DEBUG</name>
-            <data>1</data>
-          </value>
-        </postinstallregistry>
-        <postinstallregistry>
-          <key>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment</key>
-          <value>
-            <name>MESA_GLTHREAD</name>
-            <data>1</data>
-          </value>
-        </postinstallregistry>
-        <postinstallregistry>
-          <key>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment</key>
-          <value>
-            <name>GL_SHADER_DISK_CACHE_SKIP_CLEANUP</name>
-            <data>1</data>
+            <data/>
           </value>
         </postinstallregistry>
       </installprofile>
@@ -1359,6 +1336,7 @@ Added new link to downloads 012821 Ryan : https://download.cnet.com/Microsoft-Di
         <comment>CrossOver 20 was the first version to ship DXVK. It didn't provide hooks for a CrossTie install, so we have to do this the hard way.
 
 Install detection isn't really possible.</comment>
+        <medal rating="1" platform="Mac" version="21.0.0" num="1" last="2021-11-01T00:54:16-05:00">knownnottowork</medal>
         <category>Non-Applications/Components</category>
         <flag>component</flag>
         <bottletemplate>win10_64</bottletemplate>
@@ -1452,6 +1430,7 @@ Includes a dummy "file copy" instruction so we don't get a complaint about a mis
         <description>This is a modified version of DXVK shipped with CrossOver. It has compatibility fixes for macOS.</description>
         <description lang="en">This is a modified version of DXVK shipped with CrossOver. It has compatibility fixes for macOS.</description>
         <comment>CrossOver 19 didn't have a builtin DXVK, so just forward to the other profile.</comment>
+        <medal rating="1" platform="Mac" version="21.0.0" num="1" last="2021-11-01T00:54:16-05:00">knownnottowork</medal>
         <category>Non-Applications/Components</category>
         <flag>component</flag>
         <flag>virtual</flag>
@@ -1480,6 +1459,7 @@ Includes a dummy "file copy" instruction so we don't get a complaint about a mis
         <description>This is a modified version of DXVK shipped with CrossOver. It has compatibility fixes for macOS.</description>
         <description lang="en">This is a modified version of DXVK shipped with CrossOver. It has compatibility fixes for macOS.</description>
         <comment>CrossOver 21 and later will recognize the appid and install DXVK.</comment>
+        <medal rating="1" platform="Mac" version="21.0.0" num="1" last="2021-11-01T00:54:16-05:00">knownnottowork</medal>
         <category>Non-Applications/Components</category>
         <flag>component</flag>
         <flag>virtual</flag>
@@ -4770,7 +4750,7 @@ Because some games work better in cxoffice with this profile installed (but NOT 
         <medal rating="5" platform="Linux" version="20.0.4" num="1" last="2021-04-19T04:53:31-05:00">gold</medal>
         <medal rating="5" platform="Mac" version="20.0.4" num="0" last="2021-01-27T11:01:58-06:00">gold</medal>
         <medal rating="5" platform="Linux" version="21.0.0" num="1" last="2021-08-03T09:18:41-05:00">gold</medal>
-        <medal rating="5" platform="Mac" version="21.0.0" num="2" last="2021-10-18T02:21:26-05:00">gold</medal>
+        <medal rating="5" platform="Mac" version="21.0.0" num="3" last="2021-10-30T11:25:02-05:00">gold</medal>
         <category>Non-Applications/Components</category>
         <flag>component</flag>
         <installeddisplaypattern>Microsoft .NET Framework 4.7.2</installeddisplaypattern>
@@ -7020,6 +7000,7 @@ Because some games work better in cxoffice with this profile installed (but NOT 
         <medal rating="1" platform="Linux" version="16.0.0" num="1" last="2016-11-29T13:54:41-06:00">knownnottowork</medal>
         <medal rating="4" platform="Linux" version="16.2.5" num="1" last="2017-08-07T14:48:04-05:00">unsilver</medal>
         <medal rating="4" platform="Linux" version="18.0.0" num="1" last="2018-10-10T16:27:47-05:00">unsilver</medal>
+        <medal rating="5" platform="Mac" version="21.0.0" num="1" last="2021-10-31T11:18:38-05:00">ungold</medal>
         <category>Non-Applications/Components</category>
         <flag>component</flag>
         <installedkeypattern>{196BB40D-1578-3D01-B289-BEFC77A11A1E}</installedkeypattern>
