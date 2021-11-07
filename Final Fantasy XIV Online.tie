@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <c4p>
   <autorun appid="com.codeweavers.c4.7892"/><applications>
-    <app appid="com.codeweavers.c4.7892" timestamp="2021-08-26T14:39:46-05:00">
+    <app appid="com.codeweavers.c4.7892" timestamp="2021-11-02T16:20:02-05:00">
       <cxversion product="cxoffice">13.0.1</cxversion>
       <name>Final Fantasy XIV Online</name>
       <name lang="en">Final Fantasy XIV Online</name>
@@ -89,8 +89,9 @@
         <medal rating="3" platform="Linux" version="17.0.0" num="3" last="2017-11-18T10:00:07-06:00">unbronze</medal>
         <medal rating="2" platform="Mac" version="17.0.0" num="1" last="2017-12-30T07:24:05-06:00">knownnottowork</medal>
         <medal rating="4" platform="Linux" version="17.1.0" num="1" last="2018-04-28T19:30:35-05:00">unsilver</medal>
-        <medal rating="1" platform="Linux" version="21.0.0" num="1" last="2021-10-09T04:09:19-05:00">knownnottowork</medal>
-        <medal rating="3" platform="Mac" version="21.0.0" num="6" last="2021-10-28T16:42:40-05:00">unbronze</medal>
+        <medal rating="3" platform="Linux" version="21.0.0" num="2" last="2021-11-03T18:29:17-05:00">unbronze</medal>
+        <medal rating="3" platform="Mac" version="21.0.0" num="9" last="2021-11-04T04:40:05-05:00">unbronze</medal>
+        <medal rating="4" platform="Mac" version="21.1.0" num="2" last="2021-11-05T22:52:11-05:00">unsilver</medal>
         <category>Games/Online Games</category>
         <flag>application</flag>
         <installedkeypattern>{2B41E132-07DF-4925-A3D3-F2D1765CCDFE}</installedkeypattern>
@@ -113,7 +114,7 @@
         <postregisterdll>wininet</postregisterdll>
       </installprofile>
     </app>
-    <app appid="com.codeweavers.c4.7892" timestamp="2021-10-29T08:37:04-05:00">
+    <app appid="com.codeweavers.c4.7892" timestamp="2021-11-02T16:20:02-05:00">
       <cxversion product="cxoffice">21</cxversion>
       <name>Final Fantasy XIV Online</name>
       <name lang="en">Final Fantasy XIV Online</name>
@@ -203,8 +204,9 @@ Currently does not launch the game itself.</comment>
         <medal rating="3" platform="Linux" version="17.0.0" num="3" last="2017-11-18T10:00:07-06:00">unbronze</medal>
         <medal rating="2" platform="Mac" version="17.0.0" num="1" last="2017-12-30T07:24:05-06:00">knownnottowork</medal>
         <medal rating="4" platform="Linux" version="17.1.0" num="1" last="2018-04-28T19:30:35-05:00">unsilver</medal>
-        <medal rating="1" platform="Linux" version="21.0.0" num="1" last="2021-10-09T04:09:19-05:00">knownnottowork</medal>
-        <medal rating="3" platform="Mac" version="21.0.0" num="6" last="2021-10-28T16:42:40-05:00">unbronze</medal>
+        <medal rating="3" platform="Linux" version="21.0.0" num="2" last="2021-11-03T18:29:17-05:00">unbronze</medal>
+        <medal rating="3" platform="Mac" version="21.0.0" num="9" last="2021-11-04T04:40:05-05:00">unbronze</medal>
+        <medal rating="4" platform="Mac" version="21.1.0" num="2" last="2021-11-05T22:52:11-05:00">unsilver</medal>
         <category>Games/Online Games</category>
         <flag>application</flag>
         <installedkeypattern>{2B41E132-07DF-4925-A3D3-F2D1765CCDFE}</installedkeypattern>
@@ -223,7 +225,7 @@ DX11 - use DXVK instead</comment>
         <predependency>com.codeweavers.c4.17117</predependency>
       </installprofile>
     </app>
-    <app appid="com.codeweavers.c4.7892" timestamp="2021-10-30T09:50:03-05:00">
+    <app appid="com.codeweavers.c4.7892" timestamp="2021-11-02T16:20:02-05:00">
       <cxversion product="cxoffice">21</cxversion>
       <name>Final Fantasy XIV Online</name>
       <name lang="en">Final Fantasy XIV Online</name>
@@ -315,8 +317,9 @@ This version is meant to be used for Macs only!</comment>
         <medal rating="3" platform="Linux" version="17.0.0" num="3" last="2017-11-18T10:00:07-06:00">unbronze</medal>
         <medal rating="2" platform="Mac" version="17.0.0" num="1" last="2017-12-30T07:24:05-06:00">knownnottowork</medal>
         <medal rating="4" platform="Linux" version="17.1.0" num="1" last="2018-04-28T19:30:35-05:00">unsilver</medal>
-        <medal rating="1" platform="Linux" version="21.0.0" num="1" last="2021-10-09T04:09:19-05:00">knownnottowork</medal>
-        <medal rating="3" platform="Mac" version="21.0.0" num="6" last="2021-10-28T16:42:40-05:00">unbronze</medal>
+        <medal rating="3" platform="Linux" version="21.0.0" num="2" last="2021-11-03T18:29:17-05:00">unbronze</medal>
+        <medal rating="3" platform="Mac" version="21.0.0" num="9" last="2021-11-04T04:40:05-05:00">unbronze</medal>
+        <medal rating="4" platform="Mac" version="21.1.0" num="2" last="2021-11-05T22:52:11-05:00">unsilver</medal>
         <category>Games/Online Games</category>
         <flag>application</flag>
         <installedkeypattern>XIVLauncher</installedkeypattern>
@@ -372,7 +375,7 @@ This version is meant to be used for Macs only!</comment>
         </postinstallregistry>
       </installprofile>
     </app>
-    <app appid="com.codeweavers.c4.7892" timestamp="2021-11-02T08:35:44-05:00">
+    <app appid="com.codeweavers.c4.7892" timestamp="2021-11-07T12:56:32-06:00">
       <cxversion product="cxoffice">21</cxversion>
       <name>Final Fantasy XIV Online</name>
       <name lang="en">Final Fantasy XIV Online</name>
@@ -462,14 +465,15 @@ Additional steps inside macOS will need to be taken if network parsing with Adva
         <medal rating="3" platform="Linux" version="17.0.0" num="3" last="2017-11-18T10:00:07-06:00">unbronze</medal>
         <medal rating="2" platform="Mac" version="17.0.0" num="1" last="2017-12-30T07:24:05-06:00">knownnottowork</medal>
         <medal rating="4" platform="Linux" version="17.1.0" num="1" last="2018-04-28T19:30:35-05:00">unsilver</medal>
-        <medal rating="1" platform="Linux" version="21.0.0" num="1" last="2021-10-09T04:09:19-05:00">knownnottowork</medal>
-        <medal rating="3" platform="Mac" version="21.0.0" num="6" last="2021-10-28T16:42:40-05:00">unbronze</medal>
+        <medal rating="3" platform="Linux" version="21.0.0" num="2" last="2021-11-03T18:29:17-05:00">unbronze</medal>
+        <medal rating="3" platform="Mac" version="21.0.0" num="9" last="2021-11-04T04:40:05-05:00">unbronze</medal>
+        <medal rating="4" platform="Mac" version="21.1.0" num="2" last="2021-11-05T22:52:11-05:00">unsilver</medal>
         <category>Games/Online Games</category>
         <flag>application</flag>
         <installedkeypattern>XIVLauncher</installedkeypattern>
         <installeddisplaypattern>XIVLauncher</installeddisplaypattern>
         <bottletemplate>win10_64</bottletemplate>
-        <downloadurl>https://github.com/marzent/ffxiv-on-mac/raw/main/XIVLauncherWine.exe</downloadurl>
+        <downloadurl>https://github.com/marzent/FFXIVQuickLauncher/releases/download/6.0.9-mac/XIVLauncherWine.exe</downloadurl>
         <downloadglob>XIVLauncherWine.exe</downloadglob>
       </appprofile>
       <installprofile>
@@ -1336,7 +1340,7 @@ Added new link to downloads 012821 Ryan : https://download.cnet.com/Microsoft-Di
         <comment>CrossOver 20 was the first version to ship DXVK. It didn't provide hooks for a CrossTie install, so we have to do this the hard way.
 
 Install detection isn't really possible.</comment>
-        <medal rating="1" platform="Mac" version="21.0.0" num="1" last="2021-11-01T00:54:16-05:00">knownnottowork</medal>
+        <medal rating="3" platform="Mac" version="21.0.0" num="2" last="2021-11-02T23:23:28-05:00">unbronze</medal>
         <category>Non-Applications/Components</category>
         <flag>component</flag>
         <bottletemplate>win10_64</bottletemplate>
@@ -1430,7 +1434,7 @@ Includes a dummy "file copy" instruction so we don't get a complaint about a mis
         <description>This is a modified version of DXVK shipped with CrossOver. It has compatibility fixes for macOS.</description>
         <description lang="en">This is a modified version of DXVK shipped with CrossOver. It has compatibility fixes for macOS.</description>
         <comment>CrossOver 19 didn't have a builtin DXVK, so just forward to the other profile.</comment>
-        <medal rating="1" platform="Mac" version="21.0.0" num="1" last="2021-11-01T00:54:16-05:00">knownnottowork</medal>
+        <medal rating="3" platform="Mac" version="21.0.0" num="2" last="2021-11-02T23:23:28-05:00">unbronze</medal>
         <category>Non-Applications/Components</category>
         <flag>component</flag>
         <flag>virtual</flag>
@@ -1459,7 +1463,7 @@ Includes a dummy "file copy" instruction so we don't get a complaint about a mis
         <description>This is a modified version of DXVK shipped with CrossOver. It has compatibility fixes for macOS.</description>
         <description lang="en">This is a modified version of DXVK shipped with CrossOver. It has compatibility fixes for macOS.</description>
         <comment>CrossOver 21 and later will recognize the appid and install DXVK.</comment>
-        <medal rating="1" platform="Mac" version="21.0.0" num="1" last="2021-11-01T00:54:16-05:00">knownnottowork</medal>
+        <medal rating="3" platform="Mac" version="21.0.0" num="2" last="2021-11-02T23:23:28-05:00">unbronze</medal>
         <category>Non-Applications/Components</category>
         <flag>component</flag>
         <flag>virtual</flag>
@@ -4751,6 +4755,7 @@ Because some games work better in cxoffice with this profile installed (but NOT 
         <medal rating="5" platform="Mac" version="20.0.4" num="0" last="2021-01-27T11:01:58-06:00">gold</medal>
         <medal rating="5" platform="Linux" version="21.0.0" num="1" last="2021-08-03T09:18:41-05:00">gold</medal>
         <medal rating="5" platform="Mac" version="21.0.0" num="3" last="2021-10-30T11:25:02-05:00">gold</medal>
+        <medal rating="4" platform="Mac" version="21.1.0" num="1" last="2021-11-05T19:06:12-05:00">unsilver</medal>
         <category>Non-Applications/Components</category>
         <flag>component</flag>
         <installeddisplaypattern>Microsoft .NET Framework 4.7.2</installeddisplaypattern>
