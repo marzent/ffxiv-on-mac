@@ -23,6 +23,7 @@ cxwinedir="$cxLoc/Contents/SharedSupport/CrossOver/lib64/wine"
 if ( yesNo "Do you want to parse FFXIV data with ACT by scanning network data?" ); then
     cp -n "$cxwinedir/iphlpapi.dll.so" "$cxwinedir/iphlpapi.dll.so.bak"
     cp -n "$cxwinedir/wpcap.dll.so" "$cxwinedir/wpcap.dll.so.bak"
+    cp wine-dlls/iphlpapi.dll.so "$cxwinedir/iphlpapi.dll.so"
     cp wine-dlls/wpcap.dll.so "$cxwinedir/wpcap.dll.so"
     cp wine-dlls/wpcap.so "$cxwinedir/wpcap.so"
     printf "\n"
