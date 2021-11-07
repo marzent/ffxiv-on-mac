@@ -10,6 +10,8 @@
 
 ffxiv-on-mac is a set of files and scripts for running [Final Fantasy XIV](http://www.finalfantasyxiv.com/) on Mac without the limitations of the native Mac launcher and all the customization available on a native Microsoft Windows install via CrossOver.
 
+There are also some MoltenVK versions patched for dxvk available to get more performace out of CrossOver (25% fps increase on most systems with MoltenVK 1.1.5 vs 1.1.3)
+
 ## Installing
 
 [Seathasky](https://github.com/seathasky) has done a wonderfull write-up on how to install it's probably best to just follow it [here](https://github.com/seathasky/FF14-MAC_ModSupport)
@@ -17,15 +19,15 @@ ffxiv-on-mac is a set of files and scripts for running [Final Fantasy XIV](http:
 ## What works
 
 * ACT network parsing
-* gshade
-* xivlauncher with plugin injection
+* GShade
+* XIVLauncher with plugin injection
 * FFLogs Uploader
-* having a Mac only license and using xivlauncher, though your install might break on xivlauncher updates until this [pull request](https://github.com/goatcorp/FFXIVQuickLauncher/pull/572) gets merged (just rerun [XIVLauncherWine.exe](https://github.com/marzent/ffxiv-on-mac/raw/main/XIVLauncherWine.exe) inside your bottle to fix)
+* having a Mac only license and using XIVLauncher, though your install might break on XIVLauncher updates until this [pull request](https://github.com/goatcorp/FFXIVQuickLauncher/pull/572) gets merged (just rerun [XIVLauncherWine.exe](https://github.com/marzent/ffxiv-on-mac/raw/main/XIVLauncherWine.exe) inside your bottle to fix)
 
 ## What doesn't work
 
-* a minority of gshade shaders *will* tank your performance
-* a few xivlauncher plugins have issues running (compatibility is identical to running under Linux though)
+* a minority of GShade shaders *will* tank your performance
+* a few XIVLauncher plugins have issues running (compatibility is identical to running under Linux though)
 * the cef version OverlayPlugin comes bundeled with (use [Bunny HUD](https://github.com/marzent/Bunny-HUD) or NextUI to fix)
 
 ## Troubleshooting
