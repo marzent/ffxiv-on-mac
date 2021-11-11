@@ -90,8 +90,8 @@
         <medal rating="2" platform="Mac" version="17.0.0" num="1" last="2017-12-30T07:24:05-06:00">knownnottowork</medal>
         <medal rating="4" platform="Linux" version="17.1.0" num="1" last="2018-04-28T19:30:35-05:00">unsilver</medal>
         <medal rating="3" platform="Linux" version="21.0.0" num="2" last="2021-11-03T18:29:17-05:00">unbronze</medal>
-        <medal rating="3" platform="Mac" version="21.0.0" num="9" last="2021-11-04T04:40:05-05:00">unbronze</medal>
-        <medal rating="4" platform="Mac" version="21.1.0" num="2" last="2021-11-05T22:52:11-05:00">unsilver</medal>
+        <medal rating="4" platform="Mac" version="21.0.0" num="10" last="2021-11-10T13:21:39-06:00">unsilver</medal>
+        <medal rating="4" platform="Mac" version="21.1.0" num="3" last="2021-11-08T23:00:54-06:00">unsilver</medal>
         <category>Games/Online Games</category>
         <flag>application</flag>
         <installedkeypattern>{2B41E132-07DF-4925-A3D3-F2D1765CCDFE}</installedkeypattern>
@@ -205,8 +205,8 @@ Currently does not launch the game itself.</comment>
         <medal rating="2" platform="Mac" version="17.0.0" num="1" last="2017-12-30T07:24:05-06:00">knownnottowork</medal>
         <medal rating="4" platform="Linux" version="17.1.0" num="1" last="2018-04-28T19:30:35-05:00">unsilver</medal>
         <medal rating="3" platform="Linux" version="21.0.0" num="2" last="2021-11-03T18:29:17-05:00">unbronze</medal>
-        <medal rating="3" platform="Mac" version="21.0.0" num="9" last="2021-11-04T04:40:05-05:00">unbronze</medal>
-        <medal rating="4" platform="Mac" version="21.1.0" num="2" last="2021-11-05T22:52:11-05:00">unsilver</medal>
+        <medal rating="4" platform="Mac" version="21.0.0" num="10" last="2021-11-10T13:21:39-06:00">unsilver</medal>
+        <medal rating="4" platform="Mac" version="21.1.0" num="3" last="2021-11-08T23:00:54-06:00">unsilver</medal>
         <category>Games/Online Games</category>
         <flag>application</flag>
         <installedkeypattern>{2B41E132-07DF-4925-A3D3-F2D1765CCDFE}</installedkeypattern>
@@ -318,8 +318,8 @@ This version is meant to be used for Macs only!</comment>
         <medal rating="2" platform="Mac" version="17.0.0" num="1" last="2017-12-30T07:24:05-06:00">knownnottowork</medal>
         <medal rating="4" platform="Linux" version="17.1.0" num="1" last="2018-04-28T19:30:35-05:00">unsilver</medal>
         <medal rating="3" platform="Linux" version="21.0.0" num="2" last="2021-11-03T18:29:17-05:00">unbronze</medal>
-        <medal rating="3" platform="Mac" version="21.0.0" num="9" last="2021-11-04T04:40:05-05:00">unbronze</medal>
-        <medal rating="4" platform="Mac" version="21.1.0" num="2" last="2021-11-05T22:52:11-05:00">unsilver</medal>
+        <medal rating="4" platform="Mac" version="21.0.0" num="10" last="2021-11-10T13:21:39-06:00">unsilver</medal>
+        <medal rating="4" platform="Mac" version="21.1.0" num="3" last="2021-11-08T23:00:54-06:00">unsilver</medal>
         <category>Games/Online Games</category>
         <flag>application</flag>
         <installedkeypattern>XIVLauncher</installedkeypattern>
@@ -375,7 +375,7 @@ This version is meant to be used for Macs only!</comment>
         </postinstallregistry>
       </installprofile>
     </app>
-    <app appid="com.codeweavers.c4.7892" timestamp="2021-11-07T12:56:32-06:00">
+    <app appid="com.codeweavers.c4.7892" timestamp="2021-11-11T03:24:42-06:00">
       <cxversion product="cxoffice">21</cxversion>
       <name>Final Fantasy XIV Online</name>
       <name lang="en">Final Fantasy XIV Online</name>
@@ -466,14 +466,14 @@ Additional steps inside macOS will need to be taken if network parsing with Adva
         <medal rating="2" platform="Mac" version="17.0.0" num="1" last="2017-12-30T07:24:05-06:00">knownnottowork</medal>
         <medal rating="4" platform="Linux" version="17.1.0" num="1" last="2018-04-28T19:30:35-05:00">unsilver</medal>
         <medal rating="3" platform="Linux" version="21.0.0" num="2" last="2021-11-03T18:29:17-05:00">unbronze</medal>
-        <medal rating="3" platform="Mac" version="21.0.0" num="9" last="2021-11-04T04:40:05-05:00">unbronze</medal>
-        <medal rating="4" platform="Mac" version="21.1.0" num="2" last="2021-11-05T22:52:11-05:00">unsilver</medal>
+        <medal rating="4" platform="Mac" version="21.0.0" num="10" last="2021-11-10T13:21:39-06:00">unsilver</medal>
+        <medal rating="4" platform="Mac" version="21.1.0" num="3" last="2021-11-08T23:00:54-06:00">unsilver</medal>
         <category>Games/Online Games</category>
         <flag>application</flag>
         <installedkeypattern>XIVLauncher</installedkeypattern>
         <installeddisplaypattern>XIVLauncher</installeddisplaypattern>
         <bottletemplate>win10_64</bottletemplate>
-        <downloadurl>https://github.com/marzent/FFXIVQuickLauncher/releases/download/6.0.9-mac/XIVLauncherWine.exe</downloadurl>
+        <downloadurl>https://github.com/marzent/FFXIVQuickLauncher/releases/download/6.0.12/XIVLauncherWine.exe</downloadurl>
         <downloadglob>XIVLauncherWine.exe</downloadglob>
       </appprofile>
       <installprofile>
@@ -831,7 +831,7 @@ Removing dependencies on gdi+ and .net 3, as the .net 4 installer seems to do fi
         <predependency>com.codeweavers.c4.5917</predependency>
       </installprofile>
     </app>
-    <app appid="com.codeweavers.c4.5917" timestamp="2019-10-30T13:56:18-05:00">
+    <app appid="com.codeweavers.c4.5917" timestamp="2021-11-08T16:23:04-06:00">
       <cxversion product="cxoffice">15.5</cxversion>
       <name>Microsoft .NET Framework 4.0</name>
       <name lang="en">Microsoft .NET Framework 4.0</name>
@@ -970,7 +970,9 @@ Removing dependencies on gdi+ and .net 3, as the .net 4 installer seems to do fi
         <downloadglob>dotNetFx40_Full_x86_x64.exe</downloadglob>
       </appprofile>
       <installprofile>
-        <comment>20160317 - turned on always re-download the installer.
+        <comment>20211109 - turned off always re-download the installer.
+
+20160317 - turned on always re-download the installer.
 
 20130117 - switched the setting to always tell CrossOver this app is installing in a winXP bottle due to the tip added 2013-01-16 09:19 by Gavin Jacobs. The tip should now be obsolete but needs testing.
 
@@ -985,7 +987,7 @@ Removing dependencies on gdi+ and .net 3, as the .net 4 installer seems to do fi
         <predependency>com.codeweavers.c4.6945</predependency>
         <cxdiagcheck>AppRequire:MissingLibXml2</cxdiagcheck>
         <cxdiagcheck>Closed</cxdiagcheck>
-        <alwaysredownload>true</alwaysredownload>
+        <alwaysredownload>false</alwaysredownload>
         <installerwinver>winxp</installerwinver>
         <installerdlloverrides>fusion=b</installerdlloverrides>
         <postinstallreboot>true</postinstallreboot>
@@ -1236,6 +1238,7 @@ high-speed multimedia and games on the PC.</description>
         <description lang="en">Additional dependencies</description>
         <medal rating="5" platform="Mac" version="20.0.4" num="1" last="2021-06-05T16:15:02-05:00">ungold</medal>
         <medal rating="2" platform="Mac" version="21.0.0" num="2" last="2021-10-02T13:21:28-05:00">knownnottowork</medal>
+        <medal rating="5" platform="Mac" version="21.1.0" num="1" last="2021-11-08T13:41:01-06:00">ungold</medal>
         <category>Productivity</category>
         <flag>component</flag>
         <flag>virtual</flag>
@@ -1481,21 +1484,21 @@ Includes a dummy "file copy" instruction so we don't get a complaint about a mis
         <bottletemplate>win98</bottletemplate>
       </appprofile>
     </app>
-    <app appid="com.codeweavers.c4.16255" timestamp="2019-08-19T08:49:39-05:00">
+    <app appid="com.codeweavers.c4.16255" timestamp="2021-11-08T16:28:16-06:00">
       <cxversion product="cxoffice">18.5</cxversion>
       <name>Microsoft .NET Framework 4.8</name>
       <name lang="en">Microsoft .NET Framework 4.8</name>
       <appprofile>
-        <description>The .NET Framework is a standardized, language-agnostic set of libraries aimed at Windows development.</description>
-        <description lang="en">The .NET Framework is a standardized, language-agnostic set of libraries aimed at Windows development.</description>
+        <description>&lt;p&gt;The .NET Framework is a standardized, language-agnostic set of libraries aimed at Windows development.&lt;/p&gt;</description>
+        <description lang="en">&lt;p&gt;The .NET Framework is a standardized, language-agnostic set of libraries aimed at Windows development.&lt;/p&gt;</description>
         <medal rating="4" platform="Linux" version="18.5.0" num="1" last="2019-07-23T02:29:08-05:00">unsilver</medal>
         <medal rating="4" platform="Mac" version="19.0.1" num="1" last="2020-03-05T09:55:52-06:00">unsilver</medal>
         <medal rating="5" platform="Linux" version="20.0.0" num="5" last="2021-07-01T19:15:57-05:00">ungold</medal>
         <medal rating="3" platform="Linux" version="20.0.2" num="6" last="2021-02-07T12:33:11-06:00">unbronze</medal>
         <medal rating="4" platform="Linux" version="20.0.4" num="2" last="2021-07-02T13:16:52-05:00">unsilver</medal>
-        <medal rating="2" platform="Linux" version="21.0.0" num="2" last="2021-09-10T23:31:30-05:00">knownnottowork</medal>
-        <medal rating="3" platform="Mac" version="21.0.0" num="6" last="2021-09-26T03:08:46-05:00">unbronze</medal>
-        <category>Programming &amp; Development Tools</category>
+        <medal rating="4" platform="Linux" version="21.0.0" num="3" last="2021-11-08T16:42:08-06:00">unsilver</medal>
+        <medal rating="3" platform="Mac" version="21.0.0" num="7" last="2021-11-08T20:46:26-06:00">unbronze</medal>
+        <category>Non-Applications/Components</category>
         <flag>component</flag>
         <installeddisplaypattern>Microsoft .NET Framework 4.8</installeddisplaypattern>
         <bottletemplate>win7</bottletemplate>
@@ -1505,8 +1508,9 @@ Includes a dummy "file copy" instruction so we don't get a complaint about a mis
         <downloadglob>NDP48-x86-x64-AllOS-ENU.exe</downloadglob>
       </appprofile>
       <installprofile>
+        <comment>20211109 - turned off always re-download the installer.</comment>
         <predependency>com.codeweavers.c4.5917</predependency>
-        <alwaysredownload>true</alwaysredownload>
+        <alwaysredownload>false</alwaysredownload>
         <installerwinver>win7</installerwinver>
       </installprofile>
     </app>
@@ -1979,7 +1983,7 @@ Includes a dummy "file copy" instruction so we don't get a complaint about a mis
         <predependency>com.codeweavers.c4.1578</predependency>
       </installprofile>
     </app>
-    <app appid="com.codeweavers.c4.1578" timestamp="2021-08-24T22:01:43-05:00">
+    <app appid="com.codeweavers.c4.1578" timestamp="2021-11-08T16:15:54-06:00">
       <cxversion product="cxoffice">15.5</cxversion>
       <name>Microsoft .NET Framework 2.0</name>
       <name lang="en">Microsoft .NET Framework 2.0</name>
@@ -2125,9 +2129,10 @@ Includes a dummy "file copy" instruction so we don't get a complaint about a mis
       <installprofile>
         <comment>20170613 - Added .NET 2 SP2 as a post-dependency.
 20160317 - turned on always re-download the installer.
-20200310 - adding ngen.exe=b override for bug 16893</comment>
+20200310 - adding ngen.exe=b override for bug 16893
+20211109 - turned off always re-download the installer.</comment>
         <postdependency>com.codeweavers.c4.6945</postdependency>
-        <alwaysredownload>true</alwaysredownload>
+        <alwaysredownload>false</alwaysredownload>
         <installerglob>dotnetfx.exe</installerglob>
         <installerdlloverrides>mscoree=n;ngen.exe=b</installerdlloverrides>
         <preinstallregistry>
@@ -2544,7 +2549,7 @@ Includes a dummy "file copy" instruction so we don't get a complaint about a mis
         <skipassoc>true</skipassoc>
       </installprofile>
     </app>
-    <app appid="com.codeweavers.c4.6945" timestamp="2021-08-19T01:30:33-05:00">
+    <app appid="com.codeweavers.c4.6945" timestamp="2021-11-08T16:17:02-06:00">
       <cxversion product="cxoffice">15.5</cxversion>
       <name>Microsoft .NET Framework 2.0 Service Pack 2</name>
       <name lang="en">Microsoft .NET Framework 2.0 Service Pack 2</name>
@@ -2674,9 +2679,10 @@ Includes a dummy "file copy" instruction so we don't get a complaint about a mis
         <extrafor>com.codeweavers.c4.1578</extrafor>
       </appprofile>
       <installprofile>
-        <comment>20160317 - turned on always re-download the installer.</comment>
+        <comment>20160317 - turned on always re-download the installer.
+20211109 - turned off always re-download the installer.</comment>
         <predependency>com.codeweavers.c4.1578</predependency>
-        <alwaysredownload>true</alwaysredownload>
+        <alwaysredownload>false</alwaysredownload>
         <installerdlloverrides>ngen.exe,regsvcs.exe,mscorsvw.exe=b</installerdlloverrides>
         <postinstallreboot>false</postinstallreboot>
         <skipmenu>true</skipmenu>
@@ -3675,7 +3681,7 @@ Because some games work better in cxoffice with this profile installed (but NOT 
         <skipassoc>true</skipassoc>
       </installprofile>
     </app>
-    <app appid="com.codeweavers.c4.15520" timestamp="2021-09-08T12:21:39-05:00">
+    <app appid="com.codeweavers.c4.15520" timestamp="2021-11-08T16:25:48-06:00">
       <cxversion product="cxoffice">17.1</cxversion>
       <name>Microsoft .NET Framework 4.6.2</name>
       <name lang="en">Microsoft .NET Framework 4.6.2</name>
@@ -3710,8 +3716,9 @@ Because some games work better in cxoffice with this profile installed (but NOT 
         <downloadglob>NDP462-KB3151800-x86-x64-AllOS-ENU.exe</downloadglob>
       </appprofile>
       <installprofile>
+        <comment>20211109 - turned off always re-download the installer.</comment>
         <predependency>com.codeweavers.c4.5917</predependency>
-        <alwaysredownload>true</alwaysredownload>
+        <alwaysredownload>false</alwaysredownload>
         <installerwinver>win7</installerwinver>
         <installerenvironment>
           <name>CX_PNG_ICON</name>
@@ -4754,7 +4761,7 @@ Because some games work better in cxoffice with this profile installed (but NOT 
         <medal rating="5" platform="Linux" version="20.0.4" num="1" last="2021-04-19T04:53:31-05:00">gold</medal>
         <medal rating="5" platform="Mac" version="20.0.4" num="0" last="2021-01-27T11:01:58-06:00">gold</medal>
         <medal rating="5" platform="Linux" version="21.0.0" num="1" last="2021-08-03T09:18:41-05:00">gold</medal>
-        <medal rating="5" platform="Mac" version="21.0.0" num="3" last="2021-10-30T11:25:02-05:00">gold</medal>
+        <medal rating="5" platform="Mac" version="21.0.0" num="4" last="2021-11-08T17:10:46-06:00">gold</medal>
         <medal rating="4" platform="Mac" version="21.1.0" num="1" last="2021-11-05T19:06:12-05:00">unsilver</medal>
         <category>Non-Applications/Components</category>
         <flag>component</flag>
