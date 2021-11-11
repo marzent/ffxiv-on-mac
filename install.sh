@@ -55,11 +55,11 @@ while true; do
                 break;;
         [3]* )  cp -n "$cxwinedir/../libMoltenVK.dylib" "$cxwinedir/../libMoltenVK.dylib.bak"; break;;
         [4]* )  cp -n "$cxwinedir/../libMoltenVK.dylib" "$cxwinedir/../libMoltenVK.dylib.bak"
-                curl -L https://www.techspot.com/downloads/downloadnow/5288/\?evp\=fabdeffb93fe476efc5171fd321d7a87\&file\=5808 -o cx2004.zip
-                unzip -qquo cx2004.zip
+                curl -L https://media.codeweavers.com/pub/crossover/cxmac/demo/crossover-20.0.4.zip -o crossover-20.0.4.zip
+                unzip -qquo crossover-20.0.4.zip
                 cp "CrossOver.app/Contents/SharedSupport/CrossOver/lib64/libMoltenVK.dylib" "$cxwinedir/../libMoltenVK.dylib"
                 rm -r CrossOver.app
-                rm cx2004.zip
+                rm crossover-20.0.4.zip
                 break;;
         * ) printf "Invalid option.\n";;
     esac
