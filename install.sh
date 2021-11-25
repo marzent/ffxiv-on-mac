@@ -30,27 +30,28 @@ if ( yesNo "Do you want to parse FFXIV data with ACT by scanning network data?" 
         open "ChmodBPF/Install ChmodBPF.pkg"
     fi
 fi
-if ( yesNo "Do you want to inject plugins via XIVLauncher?" || yesNo "Do you want to use a Windows License?"); then
+if ( yesNo "Do you want to use a Windows License?"); then
     cp -n "$cxwinedir/ntdll.dll" "$cxwinedir/ntdll.dll.bak"
     cp wine-dlls/ntdll.dll "$cxwinedir/ntdll.dll"
 fi
-printf "\nPlease select an option:\n 1) Upgrade to Gcenx MoltenVK 1.1.6 (large performance gains, DO NOT use with M1 atm)\n 2) Upgrade to Gcenx MoltenVK 1.1.4 (performance gains, preferred for M1)\n 3) (Re-)install CrossOver 21 MoltenVK 1.1.3\n 4) Downgrade to CrossOver 20 MoltenVK 1.1.0 (this greatly reduces stuttering on 2017 iMacs with an RX 580 Pro, not advised to be used otherwise)\n 5) Do nothing\n"
+printf "\nPlease select an option:\n 1) Upgrade to Gcenx MoltenVK 1.1.6 (performance gains, DO NOT use with M1 atm)\n 2) Upgrade to FleetAdmiralButter MoltenVK 1.1.6 (performance gains, contains M1 specific patches)\n 3) (Re-)install CrossOver 21 MoltenVK 1.1.3\n 4) Downgrade to CrossOver 20 MoltenVK 1.1.0 (this greatly reduces stuttering on 2017 iMacs with an RX 580 Pro, not advised to be used otherwise)\n 5) Do nothing\n"
 while true; do
     read -p "> " -n 1 -r input
     case $input in
         [1]* )  cp -n "$cxwinedir/../libMoltenVK.dylib" "$cxwinedir/../libMoltenVK.dylib.bak"
-                curl -LO https://github.com/Gcenx/MoltenVK/releases/download/v1.1.6/macos_dxvk_patched.tar.xz
-                tar xJf macos_dxvk_patched.tar.xz
+                curl -LO https://github.com/Gcenx/MoltenVK/releases/download/v1.1.6/macos_dxvk_patched-1.1.6.tar.xz
+                tar xJf macos_dxvk_patched-1.1.6.tar.xz
                 cp "Package/Release/MoltenVK/dylib/macOS/libMoltenVK.dylib" "$cxwinedir/../libMoltenVK.dylib"
                 rm -r Package
-                rm macos_dxvk_patched.tar.xz
+                rm macos_dxvk_patched-1.1.6.tar.xz
                 break;;
         [2]* )  cp -n "$cxwinedir/../libMoltenVK.dylib" "$cxwinedir/../libMoltenVK.dylib.bak"
-                curl -LO https://github.com/Gcenx/MoltenVK/releases/download/v1.1.4/macos_dxvk_patched.tar.xz
-                tar xJf macos_dxvk_patched.tar.xz
+                curl -LO https://github.com/FleetAdmiralButter/MoltenVK/releases/download/v1.1.6/mvk-patched.zip
+                unzip -qquo mvk-patched.zip
                 cp "Package/Release/MoltenVK/dylib/macOS/libMoltenVK.dylib" "$cxwinedir/../libMoltenVK.dylib"
                 rm -r Package
-                rm macos_dxvk_patched.tar.xz
+                rm -r __MACOSX
+                rm mvk-patched.zip
                 break;;
         [3]* )  cp -n "$cxwinedir/../libMoltenVK.dylib" "$cxwinedir/../libMoltenVK.dylib.bak"
                 curl -LO https://media.codeweavers.com/pub/crossover/cxmac/demo/crossover-21.0.0.zip
