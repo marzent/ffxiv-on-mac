@@ -14,7 +14,7 @@ There are also some MoltenVK versions patched for dxvk available to get more per
 
 ## Installing
 
-[Seathasky](https://github.com/seathasky) has done a wonderfull write-up on how to install it's probably best to just follow it [here](https://github.com/seathasky/FF14-MAC_ModSupport)
+[Seathasky](https://github.com/seathasky) and I have done a wonderful write-up on how to install. It's probably best to just follow it [here](https://github.com/seathasky/FF14-MAC_ModSupport)
 
 ## What works
 
