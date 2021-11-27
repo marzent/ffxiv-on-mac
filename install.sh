@@ -34,7 +34,7 @@ if ( yesNo "Do you want to use a Windows License?"); then
     cp -n "$cxwinedir/ntdll.dll" "$cxwinedir/ntdll.dll.bak"
     cp wine-dlls/ntdll.dll "$cxwinedir/ntdll.dll"
 fi
-printf "\nPlease select an option:\n 1) Upgrade to Gcenx MoltenVK 1.1.6 (performance gains, DO NOT use with M1 atm)\n 2) Upgrade to FleetAdmiralButter MoltenVK 1.1.6 (performance gains, contains M1 specific patches)\n 3) (Re-)install CrossOver 21 MoltenVK 1.1.3\n 4) Downgrade to CrossOver 20 MoltenVK 1.1.0 (this greatly reduces stuttering on 2017 iMacs with an RX 580 Pro, not advised to be used otherwise)\n 5) Do nothing\n"
+printf "\nPlease select an option:\n 1) Upgrade to Gcenx MoltenVK 1.1.6 (performance gains, DO NOT use with M1 atm)\n 2) Upgrade to FleetAdmiralButter MoltenVK 1.1.6 (performance gains, contains M1 specific patches)\n 3) Install CrossOver 21 MoltenVK 1.1.4 (Stable for M1)\n 4) (Re-)install CrossOver 21 MoltenVK 1.1.3\n 5) Downgrade to CrossOver 20 MoltenVK 1.1.0 (this greatly reduces stuttering on 2017 iMacs with an RX 580 Pro, not advised to be used otherwise)\n 6) Do nothing\n"
 while true; do
     read -p "> " -n 1 -r input
     case $input in
@@ -54,20 +54,27 @@ while true; do
                 rm mvk-patched.zip
                 break;;
         [3]* )  cp -n "$cxwinedir/../libMoltenVK.dylib" "$cxwinedir/../libMoltenVK.dylib.bak"
+                curl -LO https://github.com/Gcenx/MoltenVK/releases/download/v1.1.4/macos_dxvk_patched-1.1.4.tar.xz
+                tar xJf macos_dxvk_patched-1.1.4.tar.xz
+                cp "Package/Release/MoltenVK/dylib/macOS/libMoltenVK.dylib" "$cxwinedir/../libMoltenVK.dylib"
+                rm -r Package
+                rm macos_dxvk_patched-1.1.4.tar.xz
+                break;;
+        [4]* )  cp -n "$cxwinedir/../libMoltenVK.dylib" "$cxwinedir/../libMoltenVK.dylib.bak"
                 curl -LO https://media.codeweavers.com/pub/crossover/cxmac/demo/crossover-21.0.0.zip
                 unzip -qquo crossover-21.0.0.zip
                 cp "CrossOver.app/Contents/SharedSupport/CrossOver/lib64/libMoltenVK.dylib" "$cxwinedir/../libMoltenVK.dylib"
                 rm -r CrossOver.app
                 rm crossover-21.0.0.zip
                 break;;
-        [4]* )  cp -n "$cxwinedir/../libMoltenVK.dylib" "$cxwinedir/../libMoltenVK.dylib.bak"
+        [5]* )  cp -n "$cxwinedir/../libMoltenVK.dylib" "$cxwinedir/../libMoltenVK.dylib.bak"
                 curl -LO https://media.codeweavers.com/pub/crossover/cxmac/demo/crossover-20.0.4.zip
                 unzip -qquo crossover-20.0.4.zip
                 cp "CrossOver.app/Contents/SharedSupport/CrossOver/lib64/libMoltenVK.dylib" "$cxwinedir/../libMoltenVK.dylib"
                 rm -r CrossOver.app
                 rm crossover-20.0.4.zip
                 break;;
-        [5]* )  break;;
+        [6]* )  break;;
         * ) printf "Invalid option.\n";;
     esac
 done
