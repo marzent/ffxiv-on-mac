@@ -34,7 +34,7 @@ if ( yesNo "Do you want to use a Windows License?"); then
     cp -n "$cxwinedir/ntdll.dll" "$cxwinedir/ntdll.dll.bak"
     cp wine-dlls/ntdll.dll "$cxwinedir/ntdll.dll"
 fi
-printf "\nPlease select an option:\n 1) Upgrade to Gcenx MoltenVK 1.1.6 (performance gains, DO NOT use with M1 atm)\n 2) Upgrade to FleetAdmiralButter MoltenVK 1.1.6 (performance gains, contains M1 specific patches)\n 3) Install CrossOver 21 MoltenVK 1.1.4 (Stable for M1)\n 4) (Re-)install CrossOver 21 MoltenVK 1.1.3\n 5) Downgrade to CrossOver 20 MoltenVK 1.1.0 (this greatly reduces stuttering on 2017 iMacs with an RX 580 Pro, not advised to be used otherwise)\n 6) Do nothing\n"
+printf "\nPlease select an option:\n 1) Upgrade to Gcenx MoltenVK 1.1.6 (performance gains, DO NOT use with M1 atm)\n 2) Upgrade to FleetAdmiralButter MoltenVK 1.1.6 (performance gains, contains M1 specific patches)\n 3) Upgrade to Gcenx MoltenVK 1.1.4 (Stable for M1)\n 4) (Re-)install CrossOver 21 MoltenVK 1.1.3\n 5) Downgrade to CrossOver 20 MoltenVK 1.1.0 (this greatly reduces stuttering on 2017 iMacs with an RX 580 Pro, not advised to be used otherwise)\n 6) Do nothing\n"
 while true; do
     read -p "> " -n 1 -r input
     case $input in
